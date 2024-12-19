@@ -17,7 +17,6 @@ type Game struct {
 	Board   [3][3]Player
 	move    int
 }
-
 func NewGame() *Game {
 	game := &Game{
 		Players: []Player{X, O},
